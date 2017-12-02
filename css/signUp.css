@@ -1,0 +1,31 @@
+.body-box{
+	background:url("../images/bgImage.jpg") no-repeat;
+	background-size:100%;
+	-webkit-filter: blur(6px);
+	-ms-filter: blur(6px);
+      -moz-filter: blur(6px);
+	filter: blur(6px);
+}
+.login-box{
+      /*border:1px solid black*/;
+      width:400px;
+      height:360px;
+      margin-left:-200px;
+      margin-top:-180px;
+}
+.login-box button{
+      display: block;
+      margin:10px auto;
+      padding:.2em 5.8em;
+      border:1px solid rgba(0,0,0,.1);
+      background:#FF4268 linear-gradient(hsla(0,0%,100%,.2),transparent);
+      border-radius:.2em;
+      box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+      color:white;
+      /*text-shadow: 0 -.05em .05em rgba(0,0,0,.5);*/
+      font: 180% "YouYuan", Arial, sans-serif;
+      line-height:1.5;
+}
+/*.login-box button:hover{
+    cursor:;
+}*/

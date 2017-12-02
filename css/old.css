@@ -1,0 +1,177 @@
+/*单独属性*/
+.container,.product,.information-box{
+  width: 1211px;
+  margin: 0 auto;
+}
+/*轮播banner*/
+nav{
+   margin-top:100px;
+
+}
+nav #banner{
+  width:100%;
+  height:500px;
+  position:relative;
+  overflow:hidden;
+}
+#banner #banner-box{
+  width:100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  height:700px;
+}
+#banner #banner-box li{
+  float:left;
+  z-index:0;
+}
+#banner #indexs {
+  position:absolute;
+  bottom:20px;
+  left:40px;
+}
+#banner #indexs li {
+  width:50px;
+  height:10px;
+  line-height: 22px;
+  display: inline-block;
+  background: #3e3e3e;
+  color: #fff;
+  border-radius:10px;
+  text-align: center;
+  cursor: pointer;
+  margin-left:10px;
+}
+#banner #indexs li:hover,#banner #indexs li.hover {
+  background:#b61b1f;
+}
+
+
+.banner-bottom{
+  background-color:#CDCDCD;
+  width:100%;
+}
+.banner-bottom .container{
+  height:232px;
+}
+/*推荐产品*/
+.commend{
+  width:540px;
+  height:190px;
+  background-color:#FFF;
+  float:left;
+  margin:42px 15px 0px 15px;
+}
+
+.commend>.commend-product{
+  width:540px;
+  height:190px;
+  padding:30px 15px 30px 15px;
+}
+
+.commend>.commend-product>.commend-left{
+  width:255px;
+  height:110px;
+  float:left;
+}
+.commend-left .commend-name{
+  color:#000;
+  font-size:20px;
+}
+.commend-left p{
+  display:block;
+  margin:0px 0px 10px 0px;
+  height:22px;
+  width:255px;
+}
+.commend-left .commend-btn{
+  margin-top:45px;
+  width:255px;
+  height:20px;
+}
+.commend-left .commend-btn a{
+  padding:6px 15px 6px 15px;
+  margin:200px 2px 2px 2px;
+  color:#181b2a;
+  border:3px solid #181B2A;
+  font-weight:bold;
+}
+/*推荐产品右部*/
+.commend>.commend-product>.commend-right{
+  width:255px;
+  height:130px;
+  float:right;
+}
+
+.commend-right img{
+  width:200px;
+  height:130px;
+  margin-left:30px;
+}
+/*产品展示*/
+.shoe{
+  width:100%;
+  height:1000px;
+  padding:100px 0 100px 0;
+}
+.like-box{
+   width:250px;
+   height:380px;
+   float:left;
+   margin:10px 25px;
+   border:1px solid #DDD;
+   padding:0 0 0 10px;
+}
+.like-box hr{
+   width:200px;
+   size:1px;
+}
+.like-box img{
+   width:230px;
+   height:230px;
+   padding:0px;
+}
+.like-box b{
+   display: block;
+   font-size:15px;
+   margin:10px 0;
+}
+.like-box .like-msg span{
+   display:block;
+   height:20px;
+   font-size:13px;
+    margin:5px 0;
+}
+.recommend{
+  height: 417px;
+  background-color:#CDCDCD;
+}
+.shoe-information{
+  width:380px;
+  height:375px;
+  margin:0 10px 0 10px;
+  float:left;
+  background-color:#FFF;
+  text-align:center;
+}
+.shoe-information a{
+  font-size:18px;
+  font-weight:bold;
+  display:inline-block;
+  margin-top:10px;
+  color:#000;
+}
+
+.shoe-information p{
+  font-size:14px;
+  margin-top:10px;
+  color:#000;
+  padding:8px;
+}
+
+footer{
+  height:320px;
+  width:100%;
+  padding:70px 0 70px 0;
+
+}
